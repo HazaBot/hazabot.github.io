@@ -1,0 +1,118 @@
+body{
+    background-color: #FFF8E8;
+    margin: 0;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#headerMain {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7EED3;
+}
+#headerArticles {
+    background-color: #F7EED3;
+}
+#logoArticles{
+    margin: 0px 0px 0px 12%;
+    width: 30%;
+    color: #674636;
+    font-size: 5vw;
+}
+#logo{
+    margin: 0px;
+    width: 30%;
+    color: #674636;
+    font-size: 5vw;
+}
+header > a{
+    list-style: none;
+    text-decoration: none;
+}
+p {
+    padding-top: 1%;
+    width: 90%;
+    text-align: justify;
+    line-height: 1.2;
+}
+#navUL{
+    display: flex;
+}
+#navUL > li{
+    padding: 0.5vw;
+    list-style: none;
+    text-decoration: none;
+}
+.navbuttonH{
+    color: #AAB396;
+    text-decoration: none;
+    padding: 1.5vw;
+}
+.navbuttonH:hover{
+    color: #674636;
+}
+#articleSignOff{
+    display: flex;
+}
+#divSection1{
+    display: flex;
+}
+#articleSignOff > img{
+    border-radius: 35%;
+    width: 7%;
+    height: 7%;
+}
+#mainContent{
+    padding: 0% 0% 2% 15%;
+    width: 80%;
+}
+h2{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#profileText {
+    color: black;
+    font-size: 1vw;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+body > footer {
+    background-color: #F7EED3;
+}
+#footerLinks{
+    display: flex;
+    justify-content: space-around;
+}
+#footerLinks > li{
+    padding: 5vh 0vw 2vh 0.5vw;
+    height: 10vh;
+    list-style: none;
+    text-decoration: none;
+} 
+#footerLinks > li > a > img{
+    width: 10%;
+    margin-left: 40%;
+}
+
+#agamemnonArticleDiv1{
+    display: flex;
+}
+#agamemnonArticleDiv1 > p{
+    padding-right: 4%;
+    width: 70%;
+} 
+#agamemnonArticleDiv1 > img{
+    height: 15%;
+    width: 15%;
+    border-radius: 5%;
+} 
+#agamemnonArticleDiv2 > img{
+    border-radius: 20%;
+    width: 80%;
+    padding-left: 5%;
+}
+#comingSoonImg{
+    width: 50%;
+}
